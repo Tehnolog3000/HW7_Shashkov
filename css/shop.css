@@ -1,0 +1,184 @@
+body{
+    margin-top: 131px;
+    color: #3D3D3D;
+
+}
+
+.container {
+    max-width: 840px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Боковая менюха */
+
+.sidebar{
+    float: left;
+    margin-left: 135px;
+    width: 370px;
+    
+    
+}
+
+aside nav h2{
+    margin-bottom: 7px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+}
+
+aside nav li{
+    margin-left: 12px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+
+}
+
+.menu{
+    padding-right: 50px;
+    padding-top: 14px;
+    padding-bottom: 300px;
+}
+.banner-text{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(70, 163, 88, 0.1) 0%, rgba(70, 163, 88, 0.03) 100%);
+    padding-top: 18px;
+    margin-right: 50px;
+}
+.banner-text ul li{
+    text-align: center;
+}
+.banner-img{
+    width: 100%;
+}
+
+.super-sale{
+    font-family: 'Hanging Letters', sans-serif;
+    font-size: 65px;
+    font-weight: 400;
+    line-height: 65px;
+    text-align: left;
+    color: #46A358;
+    padding-bottom: 110px;
+     
+}
+.discount{
+    font-size: 23px;
+    font-weight: 700;
+}
+/* Главный хедер */
+
+header nav {
+    text-align: right;
+    height: 24px;
+    position: relative;
+    margin-bottom: 31px;    
+}
+
+header nav ul {
+    float: left;
+    display: inline-block;
+    position: relative;
+    top: 50%; 
+    transform: translateY(-50%);
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 25px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+
+
+}
+
+header nav label,
+header nav select {
+    display: inline-block;
+    position: relative;
+    top: 50%; 
+    transform: translateY(-50%); 
+}
+header nav select{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+}
+/* Контейнер цветочки */
+
+.img-4{
+    width: 250px;
+    height: 250px;
+    background-color:#FBFBFB;
+}
+
+.goods{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 70px 35.5px;
+    
+}
+
+.product-card{
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.product-name{
+    padding-top: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+}
+.product-price{
+    padding-top: 6px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    color:#46A358;
+}
+
+.pagination{
+    width: 100%;
+    margin-top: 90px;
+    margin-bottom: 82px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.pagination ul {
+    display: flex;
+}
+
+.pagination li {
+    margin-right: 10px;
+}
+.pagination a {
+    padding: 8px 12px;
+    border: 1px solid  #E5E5E5;
+    color: #333;
+    border-radius: 4px;
+}
+
+.pagination a.active {
+    background-color:#46A358;
+    color:#FFFFFF;
+    border-color: #46A358;
+}
+
+.pagination a:hover {
+    background-color: #e0e0e0;
+}

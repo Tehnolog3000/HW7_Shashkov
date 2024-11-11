@@ -20,15 +20,13 @@ background: #FBFBFB;
     float: left;
     margin-left: 135px;
     margin-right: 50px;
-    width: 310px;
-    height: 774px;
+    max-width: 310px;
 }
 .menu{
-    width: 103px;
-    height: 100%;
+    width: 100%;
     margin-left: 18px;
     margin-top: 14px;
-    padding-bottom: 330px;
+    padding-bottom: 420px;
     
 }
 
@@ -52,9 +50,7 @@ aside nav li{
 .banner-img{
     width: 100%;
 }
-.sidebar, .banner-img {
-    border: 1px solid red;
-}
+
 
 
 /* Главный хедер */
